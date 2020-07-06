@@ -7,7 +7,6 @@ import os
 sns_client = boto3.client('sns')
 
 def lambda_handler(event, context):
-    # TODO implement
     decoded_event = json.loads(gzip.decompress(base64.b64decode(event['awslogs']['data'])))
     print(decoded_event)
     
