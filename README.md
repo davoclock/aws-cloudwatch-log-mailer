@@ -18,4 +18,4 @@ Lambda function (python 3.7) that parses cloudwatch log event data and sends rel
 ```
 
 ## Output Example
-![logMailer screenshot](https://imgur.com/vztRrLU)
+![screenshot](https://github.com/davoclock/aws-cloudwatch-log-mailer/blob/master/img/output_example.png)
